@@ -18,8 +18,9 @@ word_freq = Counter(words)
 # build heap of top 10 frequent elements, convert to output array
 result = heapq.nlargest(10, word_freq, key=word_freq.get)
 
-# print list of top 10 frequent words
-print(result)
+# print list of top 10 frequent words with frequency counts
+for word in result:
+    print(word, ": ", word_freq[word])
             
     
             
