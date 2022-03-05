@@ -8,7 +8,7 @@ Pull repo. In your terminal in the repo folder, run ```python wordcounter.py [te
 ## Testing
 To run on the included test file, run ```python wordcounter.py test1.py```
 The expected result is the following:
-one :  7
+one :  7\n
 four :  7
 hi :  4
 two :  4
