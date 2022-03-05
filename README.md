@@ -17,7 +17,13 @@ five :  4\
 nine :  4\
 ten :  4\
 six :  3\
-test :  2\
+test :  2
 
 This result can be confirmed by copying the test file input to the website wordcounter.net and getting the following result:
 <img width="1405" alt="Screen Shot 2022-03-05 at 11 35 53 AM" src="https://user-images.githubusercontent.com/68875504/156892111-f6c52b79-71e3-458b-ba91-d8d9b2c8ac86.png">
+
+## Assumptions
+The following is a list of some assumptions that were made:
+* Test input will be included in one text file that is passed in as the second argument (following the script title)
+* Test file is readable (read access is given)
+* All individual words are separated by a space
